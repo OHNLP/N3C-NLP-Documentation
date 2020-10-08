@@ -1,0 +1,69 @@
+<!ENTITY name "COVID-19">
+
+
+<!ELEMENT Fever   ( #PCDATA ) >
+<!ATTLIST Fever  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Chill   ( #PCDATA ) >
+<!ATTLIST Chill  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Cough   ( #PCDATA ) >
+<!ATTLIST Cough  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+
+<!ELEMENT Fatigue   ( #PCDATA ) >
+<!ATTLIST Fatigue  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Nasal_obstruction   ( #PCDATA ) >
+<!ATTLIST Nasal_obstruction  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Loss_of_appetite   ( #PCDATA ) >
+<!ATTLIST Loss_of_appetite   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Diarrhea  ( #PCDATA ) >
+<!ATTLIST Diarrhea  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Abdominal_pain  ( #PCDATA ) >
+<!ATTLIST Abdominal_pain   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Nausea  ( #PCDATA ) >
+<!ATTLIST Nausea   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Vomiting  ( #PCDATA ) >
+<!ATTLIST Vomiting   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Sore_throat  ( #PCDATA ) >
+<!ATTLIST Sore_throat   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Headache  ( #PCDATA ) >
+<!ATTLIST Headache   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Myalgia  ( #PCDATA ) >
+<!ATTLIST Myalgia   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Loss_of_taste ( #PCDATA ) >
+<!ATTLIST Loss_of_taste   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Loss_of_smell ( #PCDATA ) >
+<!ATTLIST Loss_of_smell   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Dyspnea  ( #PCDATA ) >
+<!ATTLIST Dyspnea  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Chest_pain ( #PCDATA ) >
+<!ATTLIST Chest_pain   certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Delirium  ( #PCDATA ) >
+<!ATTLIST Delirium  certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Hypersomnia  ( #PCDATA ) >
+<!ATTLIST Hypersomnia certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Cyanosis  ( #PCDATA ) >
+<!ATTLIST Cyanosis certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Pregnancy  ( #PCDATA ) >
+<!ATTLIST Pregnancy ( negated | possible | positive ) #IMPLIED "positive" >
+
+<!ELEMENT Occupation  ( #PCDATA ) >
+<!ATTLIST Occupation ( negated | possible | positive ) #IMPLIED "positive" >
