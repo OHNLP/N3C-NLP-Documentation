@@ -1,0 +1,8 @@
+<!ENTITY name "COVID-19">
+
+
+<!ELEMENT Condition   ( #PCDATA ) >
+<!ATTLIST Condition type ( Fever | Chill | Cough | Fatigue | Nasal obstruction | Loss of appetite | Diarrhea | Abdominal pain | Nausea | Vomiting | Sore throat | Headache | Myalgia | Loss of taste | Loss of smell | Dyspnea | Chest pain | Delirium | Hypersomnia | Cyanosis ) #IMPLIED "Fever" >
+<!ATTLIST Condition certainty ( negated | possible | positive ) #IMPLIED "positive" >
+
+ 
