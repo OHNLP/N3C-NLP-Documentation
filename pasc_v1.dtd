@@ -1,0 +1,7 @@
+<!ENTITY name "PASC">
+
+
+<!ELEMENT COVID_PASC   ( #PCDATA ) >
+<!ATTLIST COVID_PASC  certainty ( negated | possible | hypothetical | positive ) #IMPLIED "positive" >
+
+ 
